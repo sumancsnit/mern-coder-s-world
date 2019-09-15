@@ -4,7 +4,8 @@
   "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,17 @@
   },
   "homepage": "https://github.com/sumancsnit/mern-coder-s-world#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
     "express": "^4.17.1",
-    "express-validator": "^6.2.0"
+    "express-validator": "^6.2.0",
+    "gravator": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.2"
   }
 }
