@@ -1,0 +1,23 @@
+{
+  "name": "mern-coder-s-world",
+  "version": "1.0.0",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumancsnit/mern-coder-s-world.git"
+  },
+  "author": "Suman Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumancsnit/mern-coder-s-world/issues"
+  },
+  "homepage": "https://github.com/sumancsnit/mern-coder-s-world#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0"
+  }
+}
