@@ -4,8 +4,11 @@ const connectDB = require('./config/db');
 const app = express();
 
 // connect DB
-
 connectDB();
+
+// Init Middleware
+// app.use(bodyParser.json()); old method
+app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.send('API Running'));
 
