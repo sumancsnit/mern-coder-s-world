@@ -5,7 +5,7 @@ const app = express();
 
 // connect DB
 connectDB();
-
+// test
 // Init Middleware
 // app.use(bodyParser.json()); old method
 app.use(express.json({ extended: false }));
