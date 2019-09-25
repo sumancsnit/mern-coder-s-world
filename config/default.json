@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://suman47:47suman@codersworld-u95rv.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://suman47:47suman@codersworld-u95rv.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettokes"
 }
