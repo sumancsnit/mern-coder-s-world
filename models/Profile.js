@@ -31,31 +31,29 @@ const ProfileSchema = new mongoose.Schema({
   experience: [
     {
       title: {
-        type: {
-          type: String,
-          required: true
-        },
-        company: {
-          type: String,
-          required: true
-        },
-        location: {
-          type: String
-        },
-        from: {
-          type: Date,
-          required: true
-        },
-        to: {
-          type: Date
-        },
-        current: {
-          type: Boolean,
-          default: false
-        },
-        description: {
-          type: String
-        }
+        type: String,
+        required: true
+      },
+      company: {
+        type: String,
+        required: true
+      },
+      location: {
+        type: String
+      },
+      from: {
+        type: Date,
+        required: true
+      },
+      to: {
+        type: Date
+      },
+      current: {
+        type: Boolean,
+        default: false
+      },
+      description: {
+        type: String
       }
     }
   ],
