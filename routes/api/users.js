@@ -11,7 +11,7 @@ const User = require('../../models/User');
 // @desc Register user
 // @access Public
 
-// test 
+// test
 
 router.post(
   '/',
@@ -80,6 +80,8 @@ router.post(
         }
       );
       // res.send('User registered');
+
+      // test git
     } catch (err) {
       console.error(err.message);
       res.status(500).send('Server error');
