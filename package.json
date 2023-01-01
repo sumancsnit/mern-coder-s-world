@@ -21,7 +21,7 @@
   "homepage": "https://github.com/sumancsnit/mern-coder-s-world#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.2.2",
+    "config": "^3.3.8",
     "eslint-plugin-flowtype": "^4.3.0",
     "express": "^4.17.1",
     "express-validator": "^6.2.0",
